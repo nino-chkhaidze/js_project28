@@ -1,0 +1,515 @@
+body {
+  max-width: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: rgb(138, 154, 91);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-radius: 8px;
+}
+
+.header-wraper {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.ul {
+  display: flex;
+  gap: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navigation a {
+  font-size: 20px;
+  margin: 50px -40px 50px -40px;
+  color: black;
+  padding-left: 110px;
+  padding-right: 40px;
+  display: inline;
+  width: 100%;
+  text-decoration: none;
+}
+.navigation {
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.navigation a:hover {
+  color: white;
+  font-size: 22px;
+}
+.burger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+.fa-bars,
+.fa-times {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.notext {
+  font-size: 30px;
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 30px;
+  vertical-align: top;
+  text-decoration: none;
+}
+navigation #mylinks {
+  display: none;
+  margin-left: 20px;
+}
+.logo img {
+  width: 50px;
+  margin-left: 50px;
+}
+.jungle-text {
+  color: white;
+  font-size: 70px;
+  font-family: cursive;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.navigation {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+.btn {
+  color: black;
+  padding: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(138, 154, 91);
+}
+.button {
+  font-size: 16px;
+  font-family: cursive;
+}
+.country {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.btn {
+  border-radius: 8px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 15px;
+  width: 180px;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+  color: black;
+  font-weight: bolder;
+}
+.australia {
+  background-image: url(../images/sydney-new-south-wales-australia-600nw-2490788099.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 2px;
+}
+
+.china {
+  background-image: url(../images/china.webp);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.egypt {
+  background-image: url(../images/400.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.spain {
+  background-image: url(../images/HandLuggageOnly-9-4.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+.Seetheworld {
+  font-size: 28px;
+  color: #4b5320;
+  margin-top: 50px;
+}
+.mapaustralia {
+  width: 100px;
+}
+.georgia {
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.Seethegeorgia {
+  font-size: 28px;
+  color: #4b5320;
+  margin-top: 50px;
+}
+.guria {
+  background-image: url(../images/6630e38768a57ab78025f607e420f3f7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: text-bottom;
+}
+
+.imereti {
+  background-image: url(../images/imereti-bagratis-tadzari-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.samegrelo {
+  background-image: url(../images/IMG_5197.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kakheti {
+  background-image: url(../images/cf227c61bccc5df6417baa44a04b55fa.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+.sectionbackground {
+  background-image: url(../images/12345678.jpg);
+  background-size: cover;
+  height: 450px;
+  background-repeat: no-repeat;
+  margin: 8px 18px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.aboutbody {
+  background-color: rgb(42, 170, 138);
+  margin-top: 100px;
+}
+.aboutbody p {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-left: 20px;
+}
+.aboutbody h1 {
+  font-size: 30px;
+  color: #454b1b;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.accordion {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.wraper-body {
+  background-color: #454b1b;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.accordion-container {
+  max-width: 870px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fontColor {
+  color: rgb(244, 244, 244);
+}
+.fontSize {
+  font-size: 20px;
+}
+.accordion-title {
+  position: relative;
+  padding: 30px 0;
+  cursor: pointer;
+}
+.accordion-title::before {
+  content: " +";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  font-size: 25px;
+}
+
+.accordion h2 {
+  font-size: 27px;
+  padding-top: 50px;
+  background-color: #454b1b;
+}
+.last {
+  padding-bottom: 80px;
+}
+.accordion-description {
+  width: 100%;
+  font-size: 16px;
+  height: 0;
+  overflow: hidden;
+}
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: #a8a4a4;
+}
+.accordion-container.active .accordion-description {
+  height: 80px;
+  padding: 10px;
+  background-color: #454b1b;
+}
+.accordion-container.active .accordion-title {
+  content: "-";
+  font-size: 25px;
+  background-color: #454b1b;
+}
+#slider {
+  width: 80%;
+  height: 85vh;
+  position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  margin-top: 75px;
+  background-color: #a8a4a4;
+}
+.arrow {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  background-color: grey;
+  border-radius: 20%;
+  color: aquamarine;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  z-index: 2;
+}
+.arrow-left {
+  left: 235px;
+}
+.arrow-right {
+  right: 235px;
+}
+.arrow:hover {
+  border: none;
+  color: rgb(28, 30, 30);
+}
+
+/* java */
+.slider-title {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  /* font-family: ; */
+  /* font-size: ; */
+  letter-spacing: 0.15rem;
+  color: azure;
+  padding: 20px 70px;
+  text-align: center;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: rgb(20, 20, 20);
+}
+.dot.active {
+  background-color: rgb(251, 251, 251);
+}
+.dots {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+  cursor: pointer;
+}
+.container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 0;
+  margin-bottom: 160px;
+}
+.container li {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 80px;
+  align-items: text-bottom;
+  text-align: center;
+  border: 5px solid #454b1b;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 10px 4px 10p #454b1b;
+}
+.container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  cursor: pointer;
+}
+.container p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #161515;
+}
+
+.guides {
+  margin-top: 60px;
+}
+
+.email {
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 1px;
+  padding-bottom: 150px;
+}
+.email:hover {
+  font-size: 26px;
+  color: rgb(3, 3, 3);
+}
+
+/*სარეგისტრაციო ფორმა*/
+.contact-section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 25px;
+}
+.contacttext {
+  text-align: center;
+  font-size: 25px;
+  color: #1e2010;
+  margin-top: 100px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+input {
+  color: black;
+  background-color: #cccccc;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-top: 15px;
+  height: 30px;
+}
+input:hover {
+  border: 2px solid white;
+}
+.submit {
+  height: 30px;
+  width: 200px;
+  background-color: #545a2c;
+}
+.fspan {
+  margin: 5px;
+}
+.spantext {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: green;
+}
+.contact-section2 {
+  background-color: rgb(138, 154, 91);
+  height: 500px;
+  margin-top: 5px;
+}
+.concontacts {
+  padding: 20px;
+}
+.concontacts p {
+  font-size: 22px;
+  margin-top: 25px;
+  font-weight: 700;
+}
+.concontacts h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.text-warning {
+  color: yellow !important;
+}
+.text-primary {
+  color: yellow;
+}
+.text-danger {
+  color: yellow;
+}
+.fa-brands,
+.fa-solid,
+.fa-regular {
+  margin-right: 8px;
+  font-size: 30px;
+}
+.adress {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.map {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+  margin-top: -300px;
+}
+footer {
+  background-color: #545a2c;
+  width: 100%;
+  height: 100%;
+  margin-top: 4px;
+}
+.information {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.ftext {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.searching {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+.icons i {
+  margin-right: 50px;
+  margin-bottom: 8px;
+}
