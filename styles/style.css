@@ -212,20 +212,20 @@ navigation #mylinks {
   margin-bottom: 10px;
 }
 .accordion {
-  max-width: 1400px;
+  max-width: 850px;
   width: 100%;
   margin: 0 auto;
   margin-top: 20px;
 }
 .wraper-body {
   background-color: #454b1b;
-  max-width: 1000px;
-  width: 100%;
+  max-width: 900px;
+  width: 75%;
   margin: 0 auto;
   border-radius: 20px;
 }
 .accordion-container {
-  max-width: 870px;
+  max-width: 750px;
   width: 100%;
   margin: 0 auto;
 }
@@ -424,8 +424,9 @@ input:hover {
 }
 .submit {
   height: 30px;
-  width: 200px;
+  width: 100px;
   background-color: #545a2c;
+  border-radius: 25px;
 }
 .fspan {
   margin: 5px;
@@ -436,12 +437,12 @@ input:hover {
   color: green;
 }
 .contact-section2 {
-  background-color: rgb(138, 154, 91);
   height: 500px;
   margin-top: 5px;
 }
 .concontacts {
-  padding: 20px;
+  padding-top: 150px;
+  padding-left: 30px;
 }
 .concontacts p {
   font-size: 22px;
@@ -479,18 +480,21 @@ input:hover {
   display: flex;
   justify-content: flex-end;
   margin-right: 60px;
-  margin-top: -300px;
+  margin-top: -150px;
 }
 footer {
   background-color: #545a2c;
   width: 100%;
   height: 100%;
   margin-top: 4px;
+  text-align: center;
+  padding: 4px;
 }
 .information {
   font-size: 22px;
   margin-left: 10px;
   margin-top: 5px;
+  padding-top: 5px;
 }
 .ftext {
   display: flex;
@@ -500,16 +504,36 @@ footer {
 }
 .searching {
   display: flex;
-  justify-content: flex-end;
-  margin-top: -30px;
-  margin-right: 10px;
+  justify-content: center;
+  padding-top: 5px;
 }
 .icons {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 200px;
+  justify-content: center;
 }
 .icons i {
   margin-right: 50px;
   margin-bottom: 8px;
+}
+.line-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  width: 600px;
+  margin-left: 28%;
+  background-color: azure;
+  height: 0.5px;
+}
+.about1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: px;
+}
+.about2,
+.about3 {
+  background-color: azure;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin-right: 1.5px;
+  width: 600px;
 }
