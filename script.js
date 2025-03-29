@@ -25,27 +25,42 @@ document.addEventListener("DOMContentLoaded", function () {
     let response = this.response;
     let responseData = JSON.parse(response);
     console.log(responseData);
+  
     let container = document.getElementById("container");
+    container.innerHTML = ""; // წაშლის ძველ კონტენტს
+  
     let ul = document.createElement("ul");
+    ul.id = "user-list"; // ვაძლევ ID-ს, რომ CSS-ში სტილიზაცია მოვახდინოთ
+    container.appendChild(ul);
+  
     responseData.data.forEach(function (item) {
       let li = document.createElement("li");
-      li.textContent = item.email;
+      li.classList.add("user-container"); // ვამატებთ კლასი სტილიზაციისთვის
+  
       let image = document.createElement("img");
       image.src = item.avatar;
+      image.alt = "User Avatar";
+      image.classList.add("user-image");
+  
+      let email = document.createElement("p");
+      email.textContent = item.email;
+      email.classList.add("user-email");
+  
+      li.appendChild(image);
+      li.appendChild(email);
       ul.appendChild(li);
-      ul.appendChild(image);
-      container.appendChild(ul);
     });
   }
   
   function errorRender() {
     let container = document.getElementById("container");
     let p = document.createElement("p");
-    p.textContent = "server error";
+    p.textContent = "Server error";
     container.appendChild(p);
   }
   
   getUsers();
+  
   
   document
     .getElementById("registration")
