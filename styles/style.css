@@ -313,6 +313,7 @@ navigation #mylinks {
   color: rgb(28, 30, 30);
 }
 
+
 /* java */
 .slider-title {
   position: absolute;
@@ -467,12 +468,12 @@ input:hover {
 .text-danger {
   color: yellow;
 }
-.fa-brands,
+/*.fa-brands,
 .fa-solid,
 .fa-regular {
   margin-left: 50px;
   font-size: 30px;
-}
+}*/
 .adress {
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
@@ -484,7 +485,7 @@ input:hover {
 .map {
   display: flex;
   justify-content: flex-end;
-  margin-right: 130px;
+  margin-right: 65px;
   margin-top: -380px;
   border-radius: 20px;
 }
